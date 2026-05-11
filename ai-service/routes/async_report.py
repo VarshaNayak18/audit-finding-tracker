@@ -2,15 +2,32 @@ from flask import Blueprint, request, jsonify
 from threading import Thread
 from services.job_store import jobs
 from services.groq_client import GroqClient
+
 import uuid
 import time
+import requests
 
 bp = Blueprint("async_report", __name__)
 
 client = GroqClient()
 
 
-def generate_report_job(job_id, text):
+def send_webhook(webhook_url, payload):
+
+    try:
+
+        requests.post(
+            webhook_url,
+            json=payload,
+            timeout=5
+        )
+
+    except Exception as e:
+
+        print("Webhook failed:", e)
+
+
+def generate_report_job(job_id, text, webhook_url=None):
 
     try:
 
@@ -30,6 +47,15 @@ def generate_report_job(job_id, text):
 
         jobs[job_id]["result"] = result["output"]
 
+        payload = {
+            "job_id": job_id,
+            "status": "completed",
+            "result": result["output"]
+        }
+
+        if webhook_url:
+            send_webhook(webhook_url, payload)
+
     except Exception as e:
 
         jobs[job_id]["status"] = "failed"
@@ -43,11 +69,14 @@ def generate_report():
     data = request.get_json()
 
     if not data or "text" not in data:
+
         return jsonify({
             "error": "Missing text field"
         }), 400
 
     text = data["text"]
+
+    webhook_url = data.get("webhook_url")
 
     job_id = str(uuid.uuid4())
 
@@ -58,12 +87,13 @@ def generate_report():
 
     thread = Thread(
         target=generate_report_job,
-        args=(job_id, text)
+        args=(job_id, text, webhook_url)
     )
 
     thread.start()
 
     return jsonify({
         "job_id": job_id,
-        "status": "queued"
+        "status": "queued",
+        "webhook_enabled": webhook_url is not None
     })

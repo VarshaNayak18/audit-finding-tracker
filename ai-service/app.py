@@ -7,6 +7,8 @@ from routes.health import bp as health_bp
 from routes.async_report import bp as async_report_bp
 from routes.job_status import bp as job_status_bp
 
+from routes.webhook_receiver import bp as webhook_receiver_bp
+
 app = Flask(__name__)
 
 app.register_blueprint(categorise_bp)
@@ -15,6 +17,8 @@ app.register_blueprint(health_bp)
 
 app.register_blueprint(async_report_bp)
 app.register_blueprint(job_status_bp)
+
+app.register_blueprint(webhook_receiver_bp)
 
 @app.route("/")
 def home():
