@@ -1,13 +1,20 @@
 from flask import Flask
+
 from routes.categorise import bp as categorise_bp
 from routes.query import bp as query_bp
 from routes.health import bp as health_bp
+
+from routes.async_report import bp as async_report_bp
+from routes.job_status import bp as job_status_bp
 
 app = Flask(__name__)
 
 app.register_blueprint(categorise_bp)
 app.register_blueprint(query_bp)
 app.register_blueprint(health_bp)
+
+app.register_blueprint(async_report_bp)
+app.register_blueprint(job_status_bp)
 
 @app.route("/")
 def home():
