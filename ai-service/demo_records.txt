@@ -1,0 +1,32 @@
+SQL injection vulnerability in login system
+Weak password policy for admin users
+Sensitive customer data stored without encryption
+Cross-site scripting vulnerability detected
+Missing API authentication
+Improper access control in admin panel
+Hardcoded credentials found in source code
+Lack of audit logging for transactions
+Insecure file upload validation
+Data leakage through application logs
+
+Expired SSL certificates on production server
+Unrestricted admin access from public network
+Missing rate limiting on login endpoint
+Improper session timeout configuration
+Backup files accessible without authentication
+Outdated third-party libraries with known vulnerabilities
+No multi-factor authentication for privileged accounts
+User passwords stored using weak hashing algorithm
+Sensitive API keys exposed in frontend code
+Unauthorized privilege escalation vulnerability
+
+Server configuration exposes internal error messages
+Missing input validation in payment form
+Insecure direct object reference vulnerability
+Application vulnerable to clickjacking attacks
+No monitoring for suspicious login attempts
+Unencrypted communication between services
+Database backup stored without access restrictions
+Weak firewall configuration allowing unnecessary ports
+Insufficient logging for security incidents
+Publicly accessible cloud storage bucket containing confidential files
