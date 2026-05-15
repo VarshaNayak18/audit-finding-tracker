@@ -1,0 +1,42 @@
+[
+    {
+        "input": {
+            "text": "SQL injection vulnerability in login module"
+        },
+        "output": {
+            "error": "Invalid response"
+        }
+    },
+    {
+        "input": {
+            "text": "Weak password policy detected"
+        },
+        "output": {
+            "error": "Invalid response"
+        }
+    },
+    {
+        "input": {
+            "text": "Sensitive customer data stored unencrypted"
+        },
+        "output": {
+            "error": "Invalid response"
+        }
+    },
+    {
+        "input": {
+            "text": "Improper access control in admin dashboard"
+        },
+        "output": {
+            "error": "Invalid response"
+        }
+    },
+    {
+        "input": {
+            "text": "Missing API authentication"
+        },
+        "output": {
+            "error": "Invalid response"
+        }
+    }
+]

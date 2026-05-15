@@ -1,0 +1,17 @@
+[
+  {
+    "text": "SQL injection vulnerability in login module"
+  },
+  {
+    "text": "Weak password policy detected"
+  },
+  {
+    "text": "Sensitive customer data stored unencrypted"
+  },
+  {
+    "text": "Improper access control in admin dashboard"
+  },
+  {
+    "text": "Missing API authentication"
+  }
+]
