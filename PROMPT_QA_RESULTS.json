@@ -1,0 +1,602 @@
+[
+  {
+    "input": "SQL injection vulnerability in login system",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to a specific application security vulnerability."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 496,
+        "tokens_used": 204
+      },
+      "request_id": "a616f8db-dd61-4ecf-8ba3-469d56735167",
+      "timestamp": "2026-05-12T03:53:32.482220"
+    },
+    "response_time_ms": 20137.77
+  },
+  {
+    "input": "Weak password policy for admin users",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to authentication and access control vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 271,
+        "tokens_used": 204
+      },
+      "request_id": "53e9288f-0e82-4c59-9d58-4de10de74d68",
+      "timestamp": "2026-05-12T03:53:32.782356"
+    },
+    "response_time_ms": 297.69
+  },
+  {
+    "input": "Sensitive customer data stored without encryption",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to unprotected sensitive customer data."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 278,
+        "tokens_used": 203
+      },
+      "request_id": "80c17f3c-a66f-4dc6-ae08-45671427dcd9",
+      "timestamp": "2026-05-12T03:53:33.091371"
+    },
+    "response_time_ms": 306.71
+  },
+  {
+    "input": "Cross-site scripting vulnerability detected",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to a web application security vulnerability."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 347,
+        "tokens_used": 203
+      },
+      "request_id": "f6b173ee-ca58-4a44-bd22-6190ae6b9db6",
+      "timestamp": "2026-05-12T03:53:33.454450"
+    },
+    "response_time_ms": 360.94
+  },
+  {
+    "input": "Missing API authentication",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "Missing API authentication exposes the system to unauthorized access."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 365,
+        "tokens_used": 201
+      },
+      "request_id": "c33e2bfb-9e0d-4b9e-8788-1dcc2e7720e6",
+      "timestamp": "2026-05-12T03:53:33.836088"
+    },
+    "response_time_ms": 381.79
+  },
+  {
+    "input": "Improper access control in admin panel",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to application security vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 340,
+        "tokens_used": 203
+      },
+      "request_id": "60d9972a-b3fc-4196-9794-74d53c3a760e",
+      "timestamp": "2026-05-12T03:53:34.192836"
+    },
+    "response_time_ms": 355.65
+  },
+  {
+    "input": "Hardcoded credentials found in source code",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "Hardcoded credentials pose a significant risk to system security."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 346,
+        "tokens_used": 206
+      },
+      "request_id": "4fbb7306-1b37-4d02-9908-ab11948cdad8",
+      "timestamp": "2026-05-12T03:53:34.554781"
+    },
+    "response_time_ms": 363.68
+  },
+  {
+    "input": "Lack of audit logging for transactions",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.9,
+        "reasoning": "The issue relates to tracking and monitoring of system activities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 376,
+        "tokens_used": 206
+      },
+      "request_id": "66acf706-bd44-47be-98d6-2ac16651de86",
+      "timestamp": "2026-05-12T03:53:34.954545"
+    },
+    "response_time_ms": 395.86
+  },
+  {
+    "input": "Insecure file upload validation",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to insecure file upload validation, which can lead to security vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 277,
+        "tokens_used": 209
+      },
+      "request_id": "e022088a-e868-474c-b7c5-5a2f169e3872",
+      "timestamp": "2026-05-12T03:53:35.249629"
+    },
+    "response_time_ms": 294.19
+  },
+  {
+    "input": "Data leakage through application logs",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to sensitive data exposure through application logs."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 404,
+        "tokens_used": 204
+      },
+      "request_id": "1f299dd2-29a4-4ed5-9ff9-0ab36d84425c",
+      "timestamp": "2026-05-12T03:53:35.674924"
+    },
+    "response_time_ms": 421.9
+  },
+  {
+    "input": "Expired SSL certificates on production server",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to encryption and trust of the production server."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 309,
+        "tokens_used": 206
+      },
+      "request_id": "70cb0cc8-5072-459f-905c-284ef318feb3",
+      "timestamp": "2026-05-12T03:53:36.002697"
+    },
+    "response_time_ms": 327.53
+  },
+  {
+    "input": "Unrestricted admin access from public network",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "Unrestricted admin access from a public network poses a significant risk of unauthorized access and data breaches."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 299,
+        "tokens_used": 214
+      },
+      "request_id": "c1fc23e0-37a0-4ff6-b52f-e751981d0411",
+      "timestamp": "2026-05-12T03:53:36.319884"
+    },
+    "response_time_ms": 314.56
+  },
+  {
+    "input": "Missing rate limiting on login endpoint",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to application security vulnerabilities, specifically the lack of protection against brute-force attacks."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 298,
+        "tokens_used": 212
+      },
+      "request_id": "01d4fa85-12b8-4e7d-b568-48f49d450df2",
+      "timestamp": "2026-05-12T03:53:36.635735"
+    },
+    "response_time_ms": 315.84
+  },
+  {
+    "input": "Improper session timeout configuration",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.9,
+        "reasoning": "The issue relates to authentication and access control vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 353,
+        "tokens_used": 203
+      },
+      "request_id": "d2ad5970-c7ac-4233-b46f-a3ea67fdd502",
+      "timestamp": "2026-05-12T03:53:37.008836"
+    },
+    "response_time_ms": 370.72
+  },
+  {
+    "input": "Backup files accessible without authentication",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to unauthorized access to sensitive data."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 355,
+        "tokens_used": 203
+      },
+      "request_id": "737f456d-c9d5-4ae1-a777-6ddb6310e3d5",
+      "timestamp": "2026-05-12T03:53:37.379444"
+    },
+    "response_time_ms": 371.47
+  },
+  {
+    "input": "Outdated third-party libraries with known vulnerabilities",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to application security vulnerabilities from outdated libraries."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 374,
+        "tokens_used": 207
+      },
+      "request_id": "87fcebd2-dc01-47e4-8e6f-f225be91ddfd",
+      "timestamp": "2026-05-12T03:53:37.780377"
+    },
+    "response_time_ms": 395.93
+  },
+  {
+    "input": "No multi-factor authentication for privileged accounts",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to authentication and access control vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 403,
+        "tokens_used": 205
+      },
+      "request_id": "ed2efd5e-235e-4961-b597-5c1d5f24fb0a",
+      "timestamp": "2026-05-12T03:53:38.198833"
+    },
+    "response_time_ms": 417.53
+  },
+  {
+    "input": "User passwords stored using weak hashing algorithm",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The use of a weak hashing algorithm for password storage poses a significant risk to user credentials."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 316,
+        "tokens_used": 213
+      },
+      "request_id": "21c217e8-e79b-461f-be51-1ee5ecf92d8f",
+      "timestamp": "2026-05-12T03:53:38.535926"
+    },
+    "response_time_ms": 334.64
+  },
+  {
+    "input": "Sensitive API keys exposed in frontend code",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "Exposure of sensitive API keys poses a significant risk to system security."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 378,
+        "tokens_used": 209
+      },
+      "request_id": "b7546b85-641d-4a57-8c86-693a842a5325",
+      "timestamp": "2026-05-12T03:53:38.929033"
+    },
+    "response_time_ms": 394.55
+  },
+  {
+    "input": "Unauthorized privilege escalation vulnerability",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to unauthorized access and privilege escalation."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 363,
+        "tokens_used": 202
+      },
+      "request_id": "a5001bea-e64d-4ed6-b8b8-757b7bfb8494",
+      "timestamp": "2026-05-12T03:53:39.313765"
+    },
+    "response_time_ms": 382.76
+  },
+  {
+    "input": "Server configuration exposes internal error messages",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.9,
+        "reasoning": "Exposing internal error messages can reveal sensitive information about the server configuration."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 373,
+        "tokens_used": 208
+      },
+      "request_id": "0fd918c5-f644-4018-8a2e-1d4c18c9267e",
+      "timestamp": "2026-05-12T03:53:39.699381"
+    },
+    "response_time_ms": 386.35
+  },
+  {
+    "input": "Missing input validation in payment form",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to application security vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 353,
+        "tokens_used": 202
+      },
+      "request_id": "e85d7469-9c77-4c27-89dd-1208e4550ec1",
+      "timestamp": "2026-05-12T03:53:40.072009"
+    },
+    "response_time_ms": 371.71
+  },
+  {
+    "input": "Insecure direct object reference vulnerability",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to a direct object reference vulnerability, which is a type of security vulnerability."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 383,
+        "tokens_used": 212
+      },
+      "request_id": "5caf6943-b27d-4bdc-9dbb-81d4f39c0483",
+      "timestamp": "2026-05-12T03:53:40.475933"
+    },
+    "response_time_ms": 402.45
+  },
+  {
+    "input": "Application vulnerable to clickjacking attacks",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to application security vulnerabilities."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 261,
+        "tokens_used": 203
+      },
+      "request_id": "2097023e-1441-497c-8471-1e09b100ba0c",
+      "timestamp": "2026-05-12T03:53:40.764326"
+    },
+    "response_time_ms": 285.33
+  },
+  {
+    "input": "No monitoring for suspicious login attempts",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.9,
+        "reasoning": "The issue relates to detecting and responding to potential security threats."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 298,
+        "tokens_used": 206
+      },
+      "request_id": "aa5a7356-b869-4a23-a41e-89484ae8ee1a",
+      "timestamp": "2026-05-12T03:53:41.076898"
+    },
+    "response_time_ms": 311.2
+  },
+  {
+    "input": "Unencrypted communication between services",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "Unencrypted communication poses a risk of data interception and eavesdropping."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 362,
+        "tokens_used": 208
+      },
+      "request_id": "d4a0c25e-22b7-4609-a570-eba642cac8d7",
+      "timestamp": "2026-05-12T03:53:41.457528"
+    },
+    "response_time_ms": 384.65
+  },
+  {
+    "input": "Database backup stored without access restrictions",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.9,
+        "reasoning": "The issue relates to unauthorized access to sensitive data."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 338,
+        "tokens_used": 204
+      },
+      "request_id": "cfa20872-fe7d-41a7-b3c3-25c87d59ea3e",
+      "timestamp": "2026-05-12T03:53:41.831245"
+    },
+    "response_time_ms": 364.69
+  },
+  {
+    "input": "Weak firewall configuration allowing unnecessary ports",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.95,
+        "reasoning": "The issue relates to network security vulnerabilities due to weak firewall configuration."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 362,
+        "tokens_used": 207
+      },
+      "request_id": "1bc291f8-838f-4e6b-8b9b-dee5b4cf212d",
+      "timestamp": "2026-05-12T03:53:42.204101"
+    },
+    "response_time_ms": 372.67
+  },
+  {
+    "input": "Insufficient logging for security incidents",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.9,
+        "reasoning": "Insufficient logging hinders incident response and security analysis."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 311,
+        "tokens_used": 205
+      },
+      "request_id": "b468ab2f-dc0c-4ceb-9cde-0c0272c8e361",
+      "timestamp": "2026-05-12T03:53:42.530323"
+    },
+    "response_time_ms": 326.1
+  },
+  {
+    "input": "Publicly accessible cloud storage bucket containing confidential files",
+    "response": {
+      "data": {
+        "category": "Security",
+        "confidence": 0.99,
+        "reasoning": "The issue relates to unauthorized access to sensitive data due to misconfigured cloud storage permissions."
+      },
+      "meta": {
+        "cached": false,
+        "fallback": false,
+        "model": "llama-3.3-70b-versatile",
+        "response_time_ms": 383,
+        "tokens_used": 214
+      },
+      "request_id": "97b7c8ad-aee7-44db-a613-5f052437e3b2",
+      "timestamp": "2026-05-12T03:53:42.928496"
+    },
+    "response_time_ms": 396.95
+  }
+]

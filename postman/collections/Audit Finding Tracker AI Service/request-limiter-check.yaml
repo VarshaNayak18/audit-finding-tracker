@@ -1,0 +1,14 @@
+$kind: http-request
+name: http://127.0.0.1:5000/reports
+url: http://127.0.0.1:5000/reports
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"text\": \"Test audit input\"\r
+
+    }"
+order: 3909166386118787

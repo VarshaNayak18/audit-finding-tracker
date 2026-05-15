@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+chromadb/
+AI_EVALUATION.md
+PROMPT_QA_RESULTS.json
