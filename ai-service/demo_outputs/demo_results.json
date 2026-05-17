@@ -4,7 +4,16 @@
             "text": "SQL injection vulnerability in login module"
         },
         "output": {
-            "error": "Invalid response"
+            "data": {
+                "category": "Security",
+                "confidence": 0.99,
+                "reasoning": "The issue relates to a specific application security vulnerability."
+            },
+            "meta": {
+                "cached": true
+            },
+            "request_id": "6ea3eb32-12c0-4a2a-a05a-f454e5deff7d",
+            "timestamp": "2026-05-17T05:45:13.228303"
         }
     },
     {
@@ -12,7 +21,16 @@
             "text": "Weak password policy detected"
         },
         "output": {
-            "error": "Invalid response"
+            "data": {
+                "category": "Security",
+                "confidence": 0.99,
+                "reasoning": "The issue relates to authentication security vulnerabilities."
+            },
+            "meta": {
+                "cached": true
+            },
+            "request_id": "c3ad5212-6fe4-4d83-9738-09ebd9ce467c",
+            "timestamp": "2026-05-17T05:45:13.234200"
         }
     },
     {
@@ -20,7 +38,20 @@
             "text": "Sensitive customer data stored unencrypted"
         },
         "output": {
-            "error": "Invalid response"
+            "data": {
+                "category": "Security",
+                "confidence": 0.99,
+                "reasoning": "The issue relates to unprotected sensitive customer data."
+            },
+            "meta": {
+                "cached": false,
+                "fallback": false,
+                "model": "llama-3.3-70b-versatile",
+                "response_time_ms": 326,
+                "tokens_used": 203
+            },
+            "request_id": "5d6cc883-3f55-4933-87e5-2fe25a267cf2",
+            "timestamp": "2026-05-17T05:45:13.567504"
         }
     },
     {
@@ -28,7 +59,20 @@
             "text": "Improper access control in admin dashboard"
         },
         "output": {
-            "error": "Invalid response"
+            "data": {
+                "category": "Security",
+                "confidence": 0.95,
+                "reasoning": "The issue relates to application security vulnerabilities."
+            },
+            "meta": {
+                "cached": false,
+                "fallback": false,
+                "model": "llama-3.3-70b-versatile",
+                "response_time_ms": 321,
+                "tokens_used": 203
+            },
+            "request_id": "73dbb05a-bbdd-43cc-8509-8d75f5b97706",
+            "timestamp": "2026-05-17T05:45:13.903152"
         }
     },
     {
@@ -36,7 +80,20 @@
             "text": "Missing API authentication"
         },
         "output": {
-            "error": "Invalid response"
+            "data": {
+                "category": "Security",
+                "confidence": 0.99,
+                "reasoning": "The issue relates to lack of authentication in API, which is a security vulnerability."
+            },
+            "meta": {
+                "cached": false,
+                "fallback": false,
+                "model": "llama-3.3-70b-versatile",
+                "response_time_ms": 260,
+                "tokens_used": 207
+            },
+            "request_id": "08d2ec1b-de14-4e83-b73b-4db443e3b87b",
+            "timestamp": "2026-05-17T05:45:14.175564"
         }
     }
 ]
