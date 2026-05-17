@@ -12,7 +12,7 @@ cache = CacheService()
 
 
 def load_prompt(text):
-    with open("ai-service/prompts/categorise_prompt.txt", "r") as f:
+    with open("prompts/categorise_prompt.txt", "r") as f:
         return f.read().replace("{input}", text)
 
 
